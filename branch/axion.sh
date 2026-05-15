@@ -26,3 +26,7 @@ git clone https://$MY_TOKEN@github.com/zedisspp/vendor_sony_dolby.git -b sixteen
 
 # Sign Keys
 git clone https://$MY_TOKEN@github.com/zedisspp/vendor_lineage-priv_keys.git -b master vendor/lineage-priv/keys
+
+# AxCustomFeatures (test)
+# rm -rf frameworks/base
+# git clone https://github.com/zedisspp/android_frameworks_base.git -b lineage-23.2 frameworks/base
