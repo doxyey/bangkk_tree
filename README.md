@@ -1,5 +1,11 @@
 # bangkk_tree
 
+Evolution X
+
+```
+curl -LSs "https://raw.githubusercontent.com/zedisspp/bangkk_tree/refs/heads/main/branch/evox.sh" | bash -s main
+```
+
 Lineage OS 23.2
 
 ```
