@@ -1,5 +1,8 @@
 #/bin/bash
 
+echo "Cloning bangkk repositories"
+sleep 2
+
 #device
 git clone https://github.com/zedisspp/android_device_motorola_bangkk.git -b clover device/motorola/bangkk
 
@@ -15,8 +18,11 @@ git clone https://gitlab.com/ZedissPp/vendor_motorola_bangkk.git vendor/motorola
 #kernel
 git clone https://github.com/zedisspp/Sedona-android-kernel_motorola_sm6375.git -b baklava kernel/motorola/sm6375
 
-#hardware
-git clone https://github.com/zedisspp/android_hardware_motorola.git -b lineage-23.2 hardware/motorola
+#hardware-motorola
+git clone https://github.com/zedisspp/android_hardware_motorola.git -b clover hardware/motorola
+
+#hardware-interfaces
+git clone https://github.com/zedisspp/android_hardware_lineage_interfaces.git -b clover hardware/lineage/interfaces
 
 #nfc
 git clone https://github.com/zedisspp/android_hardware_samsung_slsi_nfc.git -b lineage-23.2 hardware/samsung/slsi/nfc
@@ -26,4 +32,3 @@ git clone https://github.com/zedisspp/vendor_sony_dolby.git -b sixteen vendor/so
 
 # Sign Keys
 git clone https://$MY_TOKEN@github.com/zedisspp/vendor_lineage-priv_keys.git -b clover vendor/clover-priv/keys
-
