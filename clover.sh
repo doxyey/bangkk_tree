@@ -6,8 +6,11 @@ sleep 2
 #device
 git clone https://github.com/zedisspp/android_device_motorola_bangkk.git -b clover device/motorola/bangkk
 
-#device-common
+#device-common-erofs
 git clone https://github.com/zedisspp/android_device_motorola_sm6375-common.git -b clover device/motorola/sm6375-common
+
+#alternative-ext4-with-powerhint
+#git clone https://github.com/zedisspp2/android_device_motorola_sm6375-common.git -b lineage-23.2 device/motorola/sm6375-common
 
 #vendor-common
 git clone https://github.com/zedisspp/proprietary_vendor_motorola_sm6375-common.git -b lineage-23.2 vendor/motorola/sm6375-common
