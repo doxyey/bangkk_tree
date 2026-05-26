@@ -4,7 +4,7 @@ echo "Cloning bangkk repositories"
 sleep 2
 
 #device
-git clone https://github.com/zedisspp/android_device_motorola_bangkk.git -b lineage-23.2 device/motorola/bangkk
+git clone https://github.com/zedisspp/android_device_motorola_bangkk.git -b lunaris device/motorola/bangkk
 
 #device-common-erofs-dolby-lunaris
 git clone https://github.com/zedisspp2/android_device_motorola_sm6375-common.git -b los-erofs device/motorola/sm6375-common
