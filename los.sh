@@ -4,7 +4,7 @@ echo "Cloning bangkk repositories"
 sleep 2
 
 #device
-git clone https://github.com/zedisspp/android_device_motorola_bangkk.git -b lunaris device/motorola/bangkk
+git clone https://github.com/zedisspp/android_device_motorola_bangkk.git -b lineage-23.2 device/motorola/bangkk
 
 #device-common-erofs-dolby-lunaris
 git clone https://github.com/zedisspp2/android_device_motorola_sm6375-common.git -b los-erofs device/motorola/sm6375-common
@@ -28,4 +28,4 @@ git clone https://github.com/zedisspp/android_hardware_samsung_slsi_nfc.git -b l
 git clone https://github.com/zedisspp2/hardware_dolby.git -b 16.0 hardware/dolby
 
 # Sign Keys
-git clone https://$MY_TOKEN@github.com/zedisspp/vendor_lineage-priv_keys.git -b master vendor/lineage-priv/keys
+git clone https://$MY_TOKEN@github.com/zedisspp/vendor_lineage-priv_keys.git -b master vendor/genesis-priv/keys
