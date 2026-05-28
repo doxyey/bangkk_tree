@@ -28,4 +28,4 @@ git clone https://github.com/zedisspp/android_hardware_samsung_slsi_nfc.git -b l
 git clone https://github.com/zedisspp2/hardware_dolby.git -b 16.0 hardware/dolby
 
 # Sign Keys
-git clone https://$MY_TOKEN@github.com/zedisspp/vendor_lineage-priv_keys.git -b master vendor/genesis-priv/keys
+git clone https://$MY_TOKEN@github.com/zedisspp/vendor_lineage-priv_keys.git -b master vendor/lineage-priv/keys
