@@ -30,8 +30,8 @@ git clone https://github.com/zedisspp/android_hardware_lineage_interfaces.git -b
 #nfc
 git clone https://github.com/zedisspp/android_hardware_samsung_slsi_nfc.git -b lineage-23.2 hardware/samsung/slsi/nfc
 
-# Dolby
-git clone https://github.com/zedisspp/vendor_sony_dolby.git -b sixteen vendor/sony/dolby
+# Dolby Lunaris with policy correction
+git clone https://github.com/zedisspp/hardware_dolby.git -b sony-1.5 hardware/dolby
 
 # Sign Keys
 git clone https://$MY_TOKEN@github.com/zedisspp/vendor_lineage-priv_keys.git -b clover vendor/clover-priv/keys
