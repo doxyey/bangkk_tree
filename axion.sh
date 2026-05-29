@@ -25,7 +25,7 @@ git clone https://github.com/LineageOS/android_hardware_motorola.git -b lineage-
 git clone https://github.com/zedisspp/android_hardware_samsung_slsi_nfc.git -b lineage-23.2 hardware/samsung/slsi/nfc
 
 # Dolby Lunaris
-git clone https://github.com/zedisspp2/hardware_dolby.git -b 16.0 hardware/dolby
+git clone https://github.com/zedisspp/hardware_dolby.git -b 16.0 hardware/dolby
 
 # Sign Keys
 git clone https://$MY_TOKEN@github.com/zedisspp/vendor_lineage-priv_keys.git -b master vendor/lineage-priv/keys
