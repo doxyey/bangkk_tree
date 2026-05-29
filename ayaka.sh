@@ -1,0 +1,30 @@
+#/bin/bash
+
+echo "Cloning bangkk repositories"
+sleep 2
+acho "Deleting conflicting repositories"
+rm -rf packages/apps/DolbyAtmos
+
+#device
+git clone https://github.com/zedisspp/android_device_motorola_bangkk.git -b ayaka device/motorola/bangkk
+
+#device-common-erofs-dolby-lunaris
+git clone https://github.com/zedisspp2/android_device_motorola_sm6375-common.git -b ayaka device/motorola/sm6375-common
+
+#vendor-common
+git clone https://github.com/zedisspp/proprietary_vendor_motorola_sm6375-common.git -b lineage-23.2 vendor/motorola/sm6375-common
+
+#vendor
+git clone https://gitlab.com/ZedissPp/vendor_motorola_bangkk.git vendor/motorola/bangkk
+
+#kernel
+git clone https://github.com/zedisspp/Sedona-android-kernel_motorola_sm6375.git -b baklava kernel/motorola/sm6375
+
+#hardware-motorola
+git clone https://github.com/LineageOS/android_hardware_motorola.git -b lineage-23.2 hardware/motorola
+
+# Dolby Lunaris
+git clone https://github.com/zedisspp2/hardware_dolby.git -b 16.0 hardware/dolby
+
+# Sign Keys
+git clone https://$MY_TOKEN@github.com/zedisspp/vendor_lineage-priv_keys.git -b master vendor/lineage-priv/keys
