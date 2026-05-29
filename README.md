@@ -17,3 +17,9 @@ AyakaUI - bangkk
 ```
 curl -LSs "https://raw.githubusercontent.com/zedisspp/bangkk_tree/refs/heads/main/ayaka.sh" | bash -s main
 ```
+
+Axion OS - bangkk
+
+```
+curl -LSs "https://raw.githubusercontent.com/zedisspp/bangkk_tree/refs/heads/main/axion.sh" | bash -s main
+```
