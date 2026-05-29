@@ -23,8 +23,8 @@ git clone https://github.com/zedisspp/Sedona-android-kernel_motorola_sm6375.git 
 #hardware-motorola
 git clone https://github.com/LineageOS/android_hardware_motorola.git -b lineage-23.2 hardware/motorola
 
-# Dolby Lunaris
-git clone https://github.com/zedisspp2/hardware_dolby.git -b 16.0 hardware/dolby
+# Dolby Lunaris with policy correction
+git clone https://github.com/zedisspp/hardware_dolby.git -b sony-1.5 hardware/dolby
 
 # Sign Keys
 git clone https://$MY_TOKEN@github.com/zedisspp/vendor_lineage-priv_keys.git -b master vendor/lineage-priv/keys
